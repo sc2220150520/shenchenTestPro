@@ -1,0 +1,40 @@
+{
+  "name": "LDCPWebViewController",
+  "version": "1.1.15",
+  "summary": "LDCPWebViewController & JSBridge",
+  "description": "LeDe CaiPiao WebViewController and JSBridge",
+  "homepage": "https://git.ms.netease.com/neteaselottery/ldcpwebviewcontroller.git",
+  "license": "MIT",
+  "authors": {
+    "SongLi": "chuangyi0128@gmail.com"
+  },
+  "source": {
+    "git": "https://git.ms.netease.com/neteaselottery/ldcpwebviewcontroller.git",
+    "tag": "1.1.15"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "source_files": "PopWebViewController",
+  "resources": "LDCPWebViewController.bundle",
+  "public_header_files": "PopWebViewController/PopWebViewController.h",
+  "dependencies": {
+    "LDWebViewProgress": [
+
+    ],
+    "LDKit/UIKitCategory": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "JsBridge",
+      "source_files": "JsBridge/*.{h,m,mm}",
+      "xcconfig": {
+        "OTHER_LDFLAGS": "-lstdc++",
+        "OTHER_LIBTOOLFLAGS": "-lstdc++"
+      }
+    }
+  ]
+}
