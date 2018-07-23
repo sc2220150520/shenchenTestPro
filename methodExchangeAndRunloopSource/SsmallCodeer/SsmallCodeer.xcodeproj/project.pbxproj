@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16EFD31720E87CB6264EE5B3 /* libPods-SsmallCodeerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B8F389C5B5F2F25C254514 /* libPods-SsmallCodeerTests.a */; };
+		230612DB1F67EBCB00EC7F07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 230612DA1F67EBCB00EC7F07 /* main.m */; };
+		230612DE1F67EBCB00EC7F07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230612DD1F67EBCB00EC7F07 /* AppDelegate.m */; };
+		230612E11F67EBCB00EC7F07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230612E01F67EBCB00EC7F07 /* ViewController.m */; };
+		230612E41F67EBCB00EC7F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230612E21F67EBCB00EC7F07 /* Main.storyboard */; };
+		230612E61F67EBCB00EC7F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230612E51F67EBCB00EC7F07 /* Assets.xcassets */; };
+		230612E91F67EBCB00EC7F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230612E71F67EBCB00EC7F07 /* LaunchScreen.storyboard */; };
+		230612F41F67EBCB00EC7F07 /* SsmallCodeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 230612F31F67EBCB00EC7F07 /* SsmallCodeerTests.m */; };
+		230612FF1F67EBCB00EC7F07 /* SsmallCodeerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 230612FE1F67EBCB00EC7F07 /* SsmallCodeerUITests.m */; };
+		23C96A501F692CAA00DCB85C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 23C96A4F1F692CAA00DCB85C /* test.html */; };
+		23CDE6BE1F7290AF008CF13B /* DrawPix.c in Sources */ = {isa = PBXBuildFile; fileRef = 23CDE6BC1F7290AF008CF13B /* DrawPix.c */; };
+		8E0B1FDD418BFA1034333FC7 /* libPods-SsmallCodeerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D00D57973D1BE2D1DC7B7F21 /* libPods-SsmallCodeerUITests.a */; };
+		EA86E6EFDCF5D01DF29599A6 /* libPods-SsmallCodeer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1552F049D66CCA522EBA80AF /* libPods-SsmallCodeer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230612F01F67EBCB00EC7F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230612CE1F67EBCB00EC7F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230612D51F67EBCB00EC7F07;
+			remoteInfo = SsmallCodeer;
+		};
+		230612FB1F67EBCB00EC7F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 230612CE1F67EBCB00EC7F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230612D51F67EBCB00EC7F07;
+			remoteInfo = SsmallCodeer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056A42ACE72A5B412222776C /* Pods-SsmallCodeerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SsmallCodeerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SsmallCodeerUITests/Pods-SsmallCodeerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		06B8F389C5B5F2F25C254514 /* libPods-SsmallCodeerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SsmallCodeerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118E34D9EA57CE2A3D19A39D /* Pods-SsmallCodeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SsmallCodeer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SsmallCodeer/Pods-SsmallCodeer.debug.xcconfig"; sourceTree = "<group>"; };
+		1552F049D66CCA522EBA80AF /* libPods-SsmallCodeer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SsmallCodeer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		230612D61F67EBCB00EC7F07 /* SsmallCodeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SsmallCodeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		230612DA1F67EBCB00EC7F07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		230612DC1F67EBCB00EC7F07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		230612DD1F67EBCB00EC7F07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		230612DF1F67EBCB00EC7F07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		230612E01F67EBCB00EC7F07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		230612E31F67EBCB00EC7F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		230612E51F67EBCB00EC7F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		230612E81F67EBCB00EC7F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		230612EA1F67EBCB00EC7F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230612EF1F67EBCB00EC7F07 /* SsmallCodeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SsmallCodeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230612F31F67EBCB00EC7F07 /* SsmallCodeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SsmallCodeerTests.m; sourceTree = "<group>"; };
+		230612F51F67EBCB00EC7F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230612FA1F67EBCB00EC7F07 /* SsmallCodeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SsmallCodeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		230612FE1F67EBCB00EC7F07 /* SsmallCodeerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SsmallCodeerUITests.m; sourceTree = "<group>"; };
+		230613001F67EBCB00EC7F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C96A4F1F692CAA00DCB85C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		23CDE6BC1F7290AF008CF13B /* DrawPix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DrawPix.c; sourceTree = "<group>"; };
+		23CDE6BD1F7290AF008CF13B /* DrawPix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPix.h; sourceTree = "<group>"; };
+		300FE00F109DF26EB8130435 /* Pods-SsmallCodeerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SsmallCodeerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SsmallCodeerTests/Pods-SsmallCodeerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A602F3A6BDFC7F27BEF0A3DD /* Pods-SsmallCodeerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SsmallCodeerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SsmallCodeerTests/Pods-SsmallCodeerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D00D57973D1BE2D1DC7B7F21 /* libPods-SsmallCodeerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SsmallCodeerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF06924F5590FE747A4B3B92 /* Pods-SsmallCodeerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SsmallCodeerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SsmallCodeerUITests/Pods-SsmallCodeerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3287FD3E80A83CAB9E7F5AD /* Pods-SsmallCodeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SsmallCodeer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SsmallCodeer/Pods-SsmallCodeer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		230612D31F67EBCB00EC7F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA86E6EFDCF5D01DF29599A6 /* libPods-SsmallCodeer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230612EC1F67EBCB00EC7F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EFD31720E87CB6264EE5B3 /* libPods-SsmallCodeerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230612F71F67EBCB00EC7F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0B1FDD418BFA1034333FC7 /* libPods-SsmallCodeerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230612CD1F67EBCB00EC7F07 = {
+			isa = PBXGroup;
+			children = (
+				230612D81F67EBCB00EC7F07 /* SsmallCodeer */,
+				230612F21F67EBCB00EC7F07 /* SsmallCodeerTests */,
+				230612FD1F67EBCB00EC7F07 /* SsmallCodeerUITests */,
+				230612D71F67EBCB00EC7F07 /* Products */,
+				9A1CCD1F39DA4F006193335B /* Pods */,
+				77EB54E20F0DF3E6BD3B2004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		230612D71F67EBCB00EC7F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				230612D61F67EBCB00EC7F07 /* SsmallCodeer.app */,
+				230612EF1F67EBCB00EC7F07 /* SsmallCodeerTests.xctest */,
+				230612FA1F67EBCB00EC7F07 /* SsmallCodeerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		230612D81F67EBCB00EC7F07 /* SsmallCodeer */ = {
+			isa = PBXGroup;
+			children = (
+				23C96A4E1F692C8500DCB85C /* Resource */,
+				230612DC1F67EBCB00EC7F07 /* AppDelegate.h */,
+				230612DD1F67EBCB00EC7F07 /* AppDelegate.m */,
+				230612DF1F67EBCB00EC7F07 /* ViewController.h */,
+				230612E01F67EBCB00EC7F07 /* ViewController.m */,
+				230612E21F67EBCB00EC7F07 /* Main.storyboard */,
+				230612E51F67EBCB00EC7F07 /* Assets.xcassets */,
+				230612E71F67EBCB00EC7F07 /* LaunchScreen.storyboard */,
+				230612EA1F67EBCB00EC7F07 /* Info.plist */,
+				230612D91F67EBCB00EC7F07 /* Supporting Files */,
+				23CDE6BC1F7290AF008CF13B /* DrawPix.c */,
+				23CDE6BD1F7290AF008CF13B /* DrawPix.h */,
+			);
+			path = SsmallCodeer;
+			sourceTree = "<group>";
+		};
+		230612D91F67EBCB00EC7F07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				230612DA1F67EBCB00EC7F07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		230612F21F67EBCB00EC7F07 /* SsmallCodeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				230612F31F67EBCB00EC7F07 /* SsmallCodeerTests.m */,
+				230612F51F67EBCB00EC7F07 /* Info.plist */,
+			);
+			path = SsmallCodeerTests;
+			sourceTree = "<group>";
+		};
+		230612FD1F67EBCB00EC7F07 /* SsmallCodeerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				230612FE1F67EBCB00EC7F07 /* SsmallCodeerUITests.m */,
+				230613001F67EBCB00EC7F07 /* Info.plist */,
+			);
+			path = SsmallCodeerUITests;
+			sourceTree = "<group>";
+		};
+		23C96A4E1F692C8500DCB85C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				23C96A4F1F692CAA00DCB85C /* test.html */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		77EB54E20F0DF3E6BD3B2004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1552F049D66CCA522EBA80AF /* libPods-SsmallCodeer.a */,
+				06B8F389C5B5F2F25C254514 /* libPods-SsmallCodeerTests.a */,
+				D00D57973D1BE2D1DC7B7F21 /* libPods-SsmallCodeerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A1CCD1F39DA4F006193335B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				118E34D9EA57CE2A3D19A39D /* Pods-SsmallCodeer.debug.xcconfig */,
+				F3287FD3E80A83CAB9E7F5AD /* Pods-SsmallCodeer.release.xcconfig */,
+				300FE00F109DF26EB8130435 /* Pods-SsmallCodeerTests.debug.xcconfig */,
+				A602F3A6BDFC7F27BEF0A3DD /* Pods-SsmallCodeerTests.release.xcconfig */,
+				DF06924F5590FE747A4B3B92 /* Pods-SsmallCodeerUITests.debug.xcconfig */,
+				056A42ACE72A5B412222776C /* Pods-SsmallCodeerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		230612D51F67EBCB00EC7F07 /* SsmallCodeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230613031F67EBCB00EC7F07 /* Build configuration list for PBXNativeTarget "SsmallCodeer" */;
+			buildPhases = (
+				D0AAEBFED79A40FE5C1E1978 /* [CP] Check Pods Manifest.lock */,
+				230612D21F67EBCB00EC7F07 /* Sources */,
+				230612D31F67EBCB00EC7F07 /* Frameworks */,
+				230612D41F67EBCB00EC7F07 /* Resources */,
+				9100D735BAD8DC4D90F0230D /* [CP] Embed Pods Frameworks */,
+				85BED1773E29B4765B0B2CE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SsmallCodeer;
+			productName = SsmallCodeer;
+			productReference = 230612D61F67EBCB00EC7F07 /* SsmallCodeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		230612EE1F67EBCB00EC7F07 /* SsmallCodeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230613061F67EBCB00EC7F07 /* Build configuration list for PBXNativeTarget "SsmallCodeerTests" */;
+			buildPhases = (
+				57905FE0F1537B94BBC1540A /* [CP] Check Pods Manifest.lock */,
+				230612EB1F67EBCB00EC7F07 /* Sources */,
+				230612EC1F67EBCB00EC7F07 /* Frameworks */,
+				230612ED1F67EBCB00EC7F07 /* Resources */,
+				1F0D230404BBE7B7FCA083A0 /* [CP] Embed Pods Frameworks */,
+				31EA54748BAEBC12A297F758 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230612F11F67EBCB00EC7F07 /* PBXTargetDependency */,
+			);
+			name = SsmallCodeerTests;
+			productName = SsmallCodeerTests;
+			productReference = 230612EF1F67EBCB00EC7F07 /* SsmallCodeerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		230612F91F67EBCB00EC7F07 /* SsmallCodeerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230613091F67EBCB00EC7F07 /* Build configuration list for PBXNativeTarget "SsmallCodeerUITests" */;
+			buildPhases = (
+				A2035EC61A3164785D07B377 /* [CP] Check Pods Manifest.lock */,
+				230612F61F67EBCB00EC7F07 /* Sources */,
+				230612F71F67EBCB00EC7F07 /* Frameworks */,
+				230612F81F67EBCB00EC7F07 /* Resources */,
+				CD116D3B4A34C47E862C3053 /* [CP] Embed Pods Frameworks */,
+				C8A59C85810D4B38DD51FD9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				230612FC1F67EBCB00EC7F07 /* PBXTargetDependency */,
+			);
+			name = SsmallCodeerUITests;
+			productName = SsmallCodeerUITests;
+			productReference = 230612FA1F67EBCB00EC7F07 /* SsmallCodeerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		230612CE1F67EBCB00EC7F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shenchen;
+				TargetAttributes = {
+					230612D51F67EBCB00EC7F07 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					230612EE1F67EBCB00EC7F07 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 230612D51F67EBCB00EC7F07;
+					};
+					230612F91F67EBCB00EC7F07 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 230612D51F67EBCB00EC7F07;
+					};
+				};
+			};
+			buildConfigurationList = 230612D11F67EBCB00EC7F07 /* Build configuration list for PBXProject "SsmallCodeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 230612CD1F67EBCB00EC7F07;
+			productRefGroup = 230612D71F67EBCB00EC7F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				230612D51F67EBCB00EC7F07 /* SsmallCodeer */,
+				230612EE1F67EBCB00EC7F07 /* SsmallCodeerTests */,
+				230612F91F67EBCB00EC7F07 /* SsmallCodeerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230612D41F67EBCB00EC7F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C96A501F692CAA00DCB85C /* test.html in Resources */,
+				230612E91F67EBCB00EC7F07 /* LaunchScreen.storyboard in Resources */,
+				230612E61F67EBCB00EC7F07 /* Assets.xcassets in Resources */,
+				230612E41F67EBCB00EC7F07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230612ED1F67EBCB00EC7F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230612F81F67EBCB00EC7F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F0D230404BBE7B7FCA083A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeerTests/Pods-SsmallCodeerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31EA54748BAEBC12A297F758 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeerTests/Pods-SsmallCodeerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57905FE0F1537B94BBC1540A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SsmallCodeerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85BED1773E29B4765B0B2CE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeer/Pods-SsmallCodeer-resources.sh",
+				"${PODS_ROOT}/LDCPWebViewController/LDCPWebViewController.bundle",
+				"${PODS_ROOT}/LDKit/LDKit/UIKit/LDLightAlert/LDLightAlert.xcassets",
+				"${PODS_ROOT}/LDKit/LDKit/UIKit/MessageBoxView/LDMBAssets.xcassets",
+				"${PODS_ROOT}/LDKit/LDKit/Category/UIKit/UIScrollView/LDScrollViewRes.xcassets",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeer/Pods-SsmallCodeer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9100D735BAD8DC4D90F0230D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeer/Pods-SsmallCodeer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2035EC61A3164785D07B377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SsmallCodeerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A59C85810D4B38DD51FD9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeerUITests/Pods-SsmallCodeerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD116D3B4A34C47E862C3053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SsmallCodeerUITests/Pods-SsmallCodeerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0AAEBFED79A40FE5C1E1978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SsmallCodeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230612D21F67EBCB00EC7F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230612E11F67EBCB00EC7F07 /* ViewController.m in Sources */,
+				23CDE6BE1F7290AF008CF13B /* DrawPix.c in Sources */,
+				230612DE1F67EBCB00EC7F07 /* AppDelegate.m in Sources */,
+				230612DB1F67EBCB00EC7F07 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230612EB1F67EBCB00EC7F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230612F41F67EBCB00EC7F07 /* SsmallCodeerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		230612F61F67EBCB00EC7F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				230612FF1F67EBCB00EC7F07 /* SsmallCodeerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		230612F11F67EBCB00EC7F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230612D51F67EBCB00EC7F07 /* SsmallCodeer */;
+			targetProxy = 230612F01F67EBCB00EC7F07 /* PBXContainerItemProxy */;
+		};
+		230612FC1F67EBCB00EC7F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230612D51F67EBCB00EC7F07 /* SsmallCodeer */;
+			targetProxy = 230612FB1F67EBCB00EC7F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		230612E21F67EBCB00EC7F07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230612E31F67EBCB00EC7F07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		230612E71F67EBCB00EC7F07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230612E81F67EBCB00EC7F07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		230613011F67EBCB00EC7F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		230613021F67EBCB00EC7F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		230613041F67EBCB00EC7F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118E34D9EA57CE2A3D19A39D /* Pods-SsmallCodeer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SsmallCodeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.SsmallCodeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		230613051F67EBCB00EC7F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3287FD3E80A83CAB9E7F5AD /* Pods-SsmallCodeer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SsmallCodeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.SsmallCodeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		230613071F67EBCB00EC7F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300FE00F109DF26EB8130435 /* Pods-SsmallCodeerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SsmallCodeerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.SsmallCodeerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SsmallCodeer.app/SsmallCodeer";
+			};
+			name = Debug;
+		};
+		230613081F67EBCB00EC7F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A602F3A6BDFC7F27BEF0A3DD /* Pods-SsmallCodeerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SsmallCodeerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.SsmallCodeerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SsmallCodeer.app/SsmallCodeer";
+			};
+			name = Release;
+		};
+		2306130A1F67EBCB00EC7F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF06924F5590FE747A4B3B92 /* Pods-SsmallCodeerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SsmallCodeerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.SsmallCodeerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SsmallCodeer;
+			};
+			name = Debug;
+		};
+		2306130B1F67EBCB00EC7F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056A42ACE72A5B412222776C /* Pods-SsmallCodeerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SsmallCodeerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.SsmallCodeerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SsmallCodeer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230612D11F67EBCB00EC7F07 /* Build configuration list for PBXProject "SsmallCodeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230613011F67EBCB00EC7F07 /* Debug */,
+				230613021F67EBCB00EC7F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230613031F67EBCB00EC7F07 /* Build configuration list for PBXNativeTarget "SsmallCodeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230613041F67EBCB00EC7F07 /* Debug */,
+				230613051F67EBCB00EC7F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230613061F67EBCB00EC7F07 /* Build configuration list for PBXNativeTarget "SsmallCodeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				230613071F67EBCB00EC7F07 /* Debug */,
+				230613081F67EBCB00EC7F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		230613091F67EBCB00EC7F07 /* Build configuration list for PBXNativeTarget "SsmallCodeerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2306130A1F67EBCB00EC7F07 /* Debug */,
+				2306130B1F67EBCB00EC7F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 230612CE1F67EBCB00EC7F07 /* Project object */;
+}

@@ -1,0 +1,54 @@
+PODS:
+  - LDCPWebViewController (1.1.15):
+    - LDCPWebViewController/JsBridge (= 1.1.15)
+    - LDKit/UIKitCategory
+    - LDWebViewProgress
+  - LDCPWebViewController/JsBridge (1.1.15):
+    - LDKit/UIKitCategory
+    - LDWebViewProgress
+  - LDKit (0.2.7):
+    - LDKit/Feature (= 0.2.7)
+    - LDKit/FoundationCategory (= 0.2.7)
+    - LDKit/UIKit (= 0.2.7)
+    - LDKit/UIKitCategory (= 0.2.7)
+  - LDKit/Feature (0.2.7):
+    - LDKit/Feature/LDKeychain (= 0.2.7)
+  - LDKit/Feature/LDKeychain (0.2.7)
+  - LDKit/FoundationCategory (0.2.7)
+  - LDKit/UIKit (0.2.7):
+    - LDKit/FoundationCategory
+    - LDKit/UIKit/LDLightAlert (= 0.2.7)
+    - LDKit/UIKit/MessageBoxView (= 0.2.7)
+  - LDKit/UIKit/LDLightAlert (0.2.7):
+    - LDKit/FoundationCategory
+  - LDKit/UIKit/MessageBoxView (0.2.7):
+    - LDKit/FoundationCategory
+    - LDKit/UIKitCategory
+  - LDKit/UIKitCategory (0.2.7):
+    - LDKit/Feature/LDKeychain
+    - LDKit/FoundationCategory
+    - LDKit/UIKit/LDLightAlert
+  - LDWebViewProgress (0.1.2)
+
+DEPENDENCIES:
+  - LDCPWebViewController (from `https://git.ms.netease.com/neteaselottery/ldcpwebviewcontroller.git`, branch `pistachio`)
+  - LDKit (~> 0.2.5)
+
+EXTERNAL SOURCES:
+  LDCPWebViewController:
+    :branch: pistachio
+    :git: https://git.ms.netease.com/neteaselottery/ldcpwebviewcontroller.git
+
+CHECKOUT OPTIONS:
+  LDCPWebViewController:
+    :commit: 8b745aaf2e3281f70db5430165dd5e22dbffa4fe
+    :git: https://git.ms.netease.com/neteaselottery/ldcpwebviewcontroller.git
+
+SPEC CHECKSUMS:
+  LDCPWebViewController: 30a1dc4a3109fef7f12004e2f88975ab84f91592
+  LDKit: 03a50bdc5f4da4eeaa0f777b0594ccd559c15977
+  LDWebViewProgress: 9b06b68b4395e77a4abf781c0b2728b0c2d4be2e
+
+PODFILE CHECKSUM: 899c4d5b39602dac48d4dfb03600648ef2ca092b
+
+COCOAPODS: 1.3.0.beta.2

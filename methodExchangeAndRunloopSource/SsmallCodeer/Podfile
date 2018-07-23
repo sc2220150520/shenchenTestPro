@@ -1,0 +1,27 @@
+source 'https://git.ms.netease.com/neteaselottery/ldcpspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.ms.netease.com/commonlibraryios/podspec.git'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SsmallCodeer' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  pod 'LDKit', '~>0.2.5' 
+  pod 'LDCPWebViewController', :git=>'https://git.ms.netease.com/neteaselottery/ldcpwebviewcontroller.git', :branch=>'pistachio'
+
+  # Pods for SsmallCodeer
+
+  target 'SsmallCodeerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SsmallCodeerUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

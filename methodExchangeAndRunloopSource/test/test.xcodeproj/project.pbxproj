@@ -1,0 +1,1297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230EA1C120A9992800E8EDFF /* CFRunLoop.c in Sources */ = {isa = PBXBuildFile; fileRef = 230EA1C020A9992800E8EDFF /* CFRunLoop.c */; };
+		233738B81FB97216003B2D4C /* GLMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 233738B71FB97216003B2D4C /* GLMyView.m */; };
+		23C76C711FB306C200750CAB /* pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23C76C701FB306C200750CAB /* pic.jpg */; };
+		23CDE6CD1F7296B9008CF13B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CDE6CC1F7296B9008CF13B /* main.m */; };
+		23CDE6D01F7296B9008CF13B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CDE6CF1F7296B9008CF13B /* AppDelegate.m */; };
+		23CDE6D31F7296B9008CF13B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CDE6D21F7296B9008CF13B /* ViewController.m */; };
+		23CDE6D61F7296B9008CF13B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CDE6D41F7296B9008CF13B /* Main.storyboard */; };
+		23CDE6D81F7296B9008CF13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CDE6D71F7296B9008CF13B /* Assets.xcassets */; };
+		23CDE6DB1F7296B9008CF13B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CDE6D91F7296B9008CF13B /* LaunchScreen.storyboard */; };
+		23CDE6E61F7296BA008CF13B /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CDE6E51F7296BA008CF13B /* testTests.m */; };
+		23CDE6F11F7296BA008CF13B /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CDE6F01F7296BA008CF13B /* testUITests.m */; };
+		23FA757520B6EE1800875200 /* MakefileVersion in Resources */ = {isa = PBXBuildFile; fileRef = 23FA74D220B6EE0E00875200 /* MakefileVersion */; };
+		23FA757620B6EE1800875200 /* CFBundle_Binary.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74D420B6EE0F00875200 /* CFBundle_Binary.c */; };
+		23FA757720B6EE1800875200 /* CFURLAccess.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74D620B6EE0F00875200 /* CFURLAccess.c */; };
+		23FA757820B6EE1800875200 /* CFTimeZone.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74D720B6EE0F00875200 /* CFTimeZone.c */; };
+		23FA757920B6EE1800875200 /* CFUniCharPropertyDatabase.data in Resources */ = {isa = PBXBuildFile; fileRef = 23FA74D920B6EE0F00875200 /* CFUniCharPropertyDatabase.data */; };
+		23FA757A20B6EE1800875200 /* CFStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74DA20B6EE0F00875200 /* CFStream.c */; };
+		23FA757B20B6EE1800875200 /* CFBundle_Grok.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74DB20B6EE0F00875200 /* CFBundle_Grok.c */; };
+		23FA757C20B6EE1800875200 /* CFPlugIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74DD20B6EE0F00875200 /* CFPlugIn.c */; };
+		23FA757D20B6EE1800875200 /* SymbolAliases in Resources */ = {isa = PBXBuildFile; fileRef = 23FA74DF20B6EE0F00875200 /* SymbolAliases */; };
+		23FA757E20B6EE1800875200 /* CFCalendar.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74E120B6EE0F00875200 /* CFCalendar.c */; };
+		23FA757F20B6EE1800875200 /* plconvert.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74E420B6EE0F00875200 /* plconvert.c */; };
+		23FA758020B6EE1800875200 /* CFCharacterSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74E520B6EE0F00875200 /* CFCharacterSet.c */; };
+		23FA758120B6EE1800875200 /* CFApplicationPreferences.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74EA20B6EE1000875200 /* CFApplicationPreferences.c */; };
+		23FA758220B6EE1800875200 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23FA74EC20B6EE1000875200 /* Info.plist */; };
+		23FA758320B6EE1800875200 /* CFRunLoop.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74F220B6EE1000875200 /* CFRunLoop.c */; };
+		23FA758420B6EE1800875200 /* CFBasicHash.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74F320B6EE1000875200 /* CFBasicHash.c */; };
+		23FA758520B6EE1800875200 /* CFSet.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74F520B6EE1000875200 /* CFSet.c */; };
+		23FA758620B6EE1800875200 /* CFUnicodeData-B.mapping in Resources */ = {isa = PBXBuildFile; fileRef = 23FA74F720B6EE1000875200 /* CFUnicodeData-B.mapping */; };
+		23FA758720B6EE1800875200 /* CFXMLNode.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74FB20B6EE1000875200 /* CFXMLNode.c */; };
+		23FA758820B6EE1800875200 /* CFBundle_InfoPlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74FC20B6EE1000875200 /* CFBundle_InfoPlist.c */; };
+		23FA758920B6EE1800875200 /* CFCharacterSetBitmaps.bitmap in Resources */ = {isa = PBXBuildFile; fileRef = 23FA74FE20B6EE1100875200 /* CFCharacterSetBitmaps.bitmap */; };
+		23FA758A20B6EE1800875200 /* CFSortFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA74FF20B6EE1100875200 /* CFSortFunctions.c */; };
+		23FA758B20B6EE1800875200 /* CFRuntime.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750220B6EE1100875200 /* CFRuntime.c */; };
+		23FA758C20B6EE1800875200 /* CFUnicodeDecomposition.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750320B6EE1100875200 /* CFUnicodeDecomposition.c */; };
+		23FA758D20B6EE1800875200 /* CFXMLPreferencesDomain.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750420B6EE1100875200 /* CFXMLPreferencesDomain.c */; };
+		23FA758E20B6EE1800875200 /* CFXMLInputStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750520B6EE1100875200 /* CFXMLInputStream.c */; };
+		23FA759020B6EE1800875200 /* CFStringEncodings.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750820B6EE1100875200 /* CFStringEncodings.c */; };
+		23FA759120B6EE1800875200 /* CFBuiltinConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750920B6EE1100875200 /* CFBuiltinConverters.c */; };
+		23FA759220B6EE1800875200 /* CFUnicodePrecomposition.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750B20B6EE1100875200 /* CFUnicodePrecomposition.c */; };
+		23FA759320B6EE1800875200 /* CFUUID.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA750F20B6EE1100875200 /* CFUUID.c */; };
+		23FA759420B6EE1800875200 /* CFDictionary.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751020B6EE1100875200 /* CFDictionary.c */; };
+		23FA759520B6EE1800875200 /* CFPropertyList.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751320B6EE1200875200 /* CFPropertyList.c */; };
+		23FA759620B6EE1800875200 /* CFBundle.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751420B6EE1200875200 /* CFBundle.c */; };
+		23FA759720B6EE1800875200 /* CFNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751720B6EE1200875200 /* CFNumber.c */; };
+		23FA759820B6EE1800875200 /* CFICUConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751920B6EE1200875200 /* CFICUConverters.c */; };
+		23FA759920B6EE1800875200 /* CFStringEncodingConverter.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751B20B6EE1200875200 /* CFStringEncodingConverter.c */; };
+		23FA759A20B6EE1800875200 /* CFBasicHashFindBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751D20B6EE1200875200 /* CFBasicHashFindBucket.m */; };
+		23FA759B20B6EE1800875200 /* CFStorage.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751E20B6EE1200875200 /* CFStorage.c */; };
+		23FA759C20B6EE1800875200 /* CFPreferences.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA751F20B6EE1200875200 /* CFPreferences.c */; };
+		23FA759D20B6EE1800875200 /* README_CFLITE in Resources */ = {isa = PBXBuildFile; fileRef = 23FA752020B6EE1200875200 /* README_CFLITE */; };
+		23FA759E20B6EE1800875200 /* CFURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752120B6EE1200875200 /* CFURL.c */; };
+		23FA759F20B6EE1800875200 /* CFBundle_Locale.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752320B6EE1200875200 /* CFBundle_Locale.c */; };
+		23FA75A020B6EE1800875200 /* CFXMLParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752520B6EE1200875200 /* CFXMLParser.c */; };
+		23FA75A120B6EE1800875200 /* CFStringScanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752820B6EE1300875200 /* CFStringScanner.c */; };
+		23FA75A220B6EE1800875200 /* CFMachPort.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752D20B6EE1300875200 /* CFMachPort.c */; };
+		23FA75A320B6EE1800875200 /* CFTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752E20B6EE1300875200 /* CFTree.c */; };
+		23FA75A420B6EE1800875200 /* CFUniChar.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA752F20B6EE1300875200 /* CFUniChar.c */; };
+		23FA75A520B6EE1800875200 /* CFPlugIn_PlugIn.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753220B6EE1300875200 /* CFPlugIn_PlugIn.c */; };
+		23FA75A620B6EE1800875200 /* CFLocaleIdentifier.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753420B6EE1300875200 /* CFLocaleIdentifier.c */; };
+		23FA75A720B6EE1800875200 /* CFBag.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753520B6EE1300875200 /* CFBag.c */; };
+		23FA75A820B6EE1800875200 /* CFPlugIn_Factory.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753720B6EE1300875200 /* CFPlugIn_Factory.c */; };
+		23FA75A920B6EE1800875200 /* CFSocketStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753820B6EE1400875200 /* CFSocketStream.c */; };
+		23FA75AA20B6EE1800875200 /* CFLocaleKeys.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753920B6EE1400875200 /* CFLocaleKeys.c */; };
+		23FA75AB20B6EE1800875200 /* MakefileLinux in Resources */ = {isa = PBXBuildFile; fileRef = 23FA753B20B6EE1400875200 /* MakefileLinux */; };
+		23FA75AC20B6EE1800875200 /* CFBundle_Strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753C20B6EE1400875200 /* CFBundle_Strings.c */; };
+		23FA75AD20B6EE1800875200 /* CFMessagePort.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA753F20B6EE1400875200 /* CFMessagePort.c */; };
+		23FA75AE20B6EE1800875200 /* CFBinaryPList.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754020B6EE1400875200 /* CFBinaryPList.c */; };
+		23FA75AF20B6EE1800875200 /* CFBundle_Resources.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754120B6EE1400875200 /* CFBundle_Resources.c */; };
+		23FA75B020B6EE1800875200 /* CFSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754220B6EE1400875200 /* CFSocket.c */; };
+		23FA75B120B6EE1800875200 /* CFWindowsUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754320B6EE1400875200 /* CFWindowsUtilities.c */; };
+		23FA75B220B6EE1800875200 /* CFNumberFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754520B6EE1400875200 /* CFNumberFormatter.c */; };
+		23FA75B320B6EE1800875200 /* CFBurstTrie.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754720B6EE1400875200 /* CFBurstTrie.c */; };
+		23FA75B420B6EE1800875200 /* CFBigNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754820B6EE1500875200 /* CFBigNumber.c */; };
+		23FA75B520B6EE1800875200 /* CFOldStylePList.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754920B6EE1500875200 /* CFOldStylePList.c */; };
+		23FA75B620B6EE1800875200 /* CFPlatform.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754C20B6EE1500875200 /* CFPlatform.c */; };
+		23FA75B720B6EE1800875200 /* CFSystemDirectories.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754E20B6EE1500875200 /* CFSystemDirectories.c */; };
+		23FA75B820B6EE1800875200 /* CFBase.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA754F20B6EE1500875200 /* CFBase.c */; };
+		23FA75B920B6EE1800875200 /* CFData.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755020B6EE1500875200 /* CFData.c */; };
+		23FA75BA20B6EE1800875200 /* CFError.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755120B6EE1500875200 /* CFError.c */; };
+		23FA75BB20B6EE1800875200 /* CFPlatformConverters.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755220B6EE1500875200 /* CFPlatformConverters.c */; };
+		23FA75BC20B6EE1800875200 /* CFVersion.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755420B6EE1500875200 /* CFVersion.c */; };
+		23FA75BD20B6EE1800875200 /* CFArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755520B6EE1500875200 /* CFArray.c */; };
+		23FA75BE20B6EE1800875200 /* PropertyList.dtd in Resources */ = {isa = PBXBuildFile; fileRef = 23FA755920B6EE1600875200 /* PropertyList.dtd */; };
+		23FA75BF20B6EE1800875200 /* CFUnicodeData-L.mapping in Resources */ = {isa = PBXBuildFile; fileRef = 23FA755A20B6EE1600875200 /* CFUnicodeData-L.mapping */; };
+		23FA75C020B6EE1800875200 /* CFUserNotification.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755C20B6EE1600875200 /* CFUserNotification.c */; };
+		23FA75C120B6EE1800875200 /* CFBinaryHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA755E20B6EE1600875200 /* CFBinaryHeap.c */; };
+		23FA75C220B6EE1800875200 /* CFString.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756220B6EE1600875200 /* CFString.c */; };
+		23FA75C320B6EE1800875200 /* CFConcreteStreams.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756320B6EE1600875200 /* CFConcreteStreams.c */; };
+		23FA75C420B6EE1800875200 /* CFStringUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756720B6EE1600875200 /* CFStringUtilities.c */; };
+		23FA75C520B6EE1800875200 /* CFDateFormatter.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756820B6EE1700875200 /* CFDateFormatter.c */; };
+		23FA75C620B6EE1800875200 /* CFLocale.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756920B6EE1700875200 /* CFLocale.c */; };
+		23FA75C720B6EE1800875200 /* CFPlugIn_Instance.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756A20B6EE1700875200 /* CFPlugIn_Instance.c */; };
+		23FA75C820B6EE1800875200 /* CFBitVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756B20B6EE1700875200 /* CFBitVector.c */; };
+		23FA75C920B6EE1800875200 /* CFStringEncodingDatabase.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756C20B6EE1700875200 /* CFStringEncodingDatabase.c */; };
+		23FA75CA20B6EE1800875200 /* CFDate.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756D20B6EE1700875200 /* CFDate.c */; };
+		23FA75CB20B6EE1800875200 /* CFFileUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA756F20B6EE1700875200 /* CFFileUtilities.c */; };
+		23FA75CC20B6EE1800875200 /* CFXMLTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA757120B6EE1700875200 /* CFXMLTree.c */; };
+		23FA75CD20B6EE1800875200 /* CFUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 23FA757320B6EE1800875200 /* CFUtilities.c */; };
+		23FA75CE20B6EE1800875200 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 23FA757420B6EE1800875200 /* Makefile */; };
+		66690BAF6581303EC15962F6 /* libPods-testUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7078BC48911F581CCE92047B /* libPods-testUITests.a */; };
+		BDB93F8C9B38FEC4E5DAC14F /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806DA0059F9EBBA96220ADC0 /* libPods-test.a */; };
+		FB1892CBDB247FC9BFB3CEEB /* libPods-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45DA7326A12A9C6A973EB3 /* libPods-testTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23CDE6E21F7296BA008CF13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23CDE6C01F7296B9008CF13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23CDE6C71F7296B9008CF13B;
+			remoteInfo = test;
+		};
+		23CDE6ED1F7296BA008CF13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23CDE6C01F7296B9008CF13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23CDE6C71F7296B9008CF13B;
+			remoteInfo = test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0389CAAFC010E9976514BFA8 /* Pods-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		230EA1BF20A998FA00E8EDFF /* CFRunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFRunLoop.h; sourceTree = "<group>"; };
+		230EA1C020A9992800E8EDFF /* CFRunLoop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CFRunLoop.c; sourceTree = "<group>"; };
+		233738B31FB9712C003B2D4C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		233738B41FB97147003B2D4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		233738B61FB97216003B2D4C /* GLMyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLMyView.h; sourceTree = "<group>"; };
+		233738B71FB97216003B2D4C /* GLMyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLMyView.m; sourceTree = "<group>"; };
+		23C76C701FB306C200750CAB /* pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic.jpg; sourceTree = "<group>"; };
+		23CDE6C81F7296B9008CF13B /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CDE6CC1F7296B9008CF13B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23CDE6CE1F7296B9008CF13B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23CDE6CF1F7296B9008CF13B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23CDE6D11F7296B9008CF13B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23CDE6D21F7296B9008CF13B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23CDE6D51F7296B9008CF13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23CDE6D71F7296B9008CF13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23CDE6DA1F7296B9008CF13B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23CDE6DC1F7296B9008CF13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CDE6E11F7296BA008CF13B /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CDE6E51F7296BA008CF13B /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		23CDE6E71F7296BA008CF13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CDE6EC1F7296BA008CF13B /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CDE6F01F7296BA008CF13B /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
+		23CDE6F21F7296BA008CF13B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23FA74CF20B6EE0E00875200 /* CFPlugIn_Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPlugIn_Factory.h; sourceTree = "<group>"; };
+		23FA74D020B6EE0E00875200 /* CFPropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPropertyList.h; sourceTree = "<group>"; };
+		23FA74D120B6EE0E00875200 /* CFXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFXMLParser.h; sourceTree = "<group>"; };
+		23FA74D220B6EE0E00875200 /* MakefileVersion */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MakefileVersion; sourceTree = "<group>"; };
+		23FA74D320B6EE0F00875200 /* CFAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAvailability.h; sourceTree = "<group>"; };
+		23FA74D420B6EE0F00875200 /* CFBundle_Binary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle_Binary.c; sourceTree = "<group>"; };
+		23FA74D520B6EE0F00875200 /* CFCharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCharacterSet.h; sourceTree = "<group>"; };
+		23FA74D620B6EE0F00875200 /* CFURLAccess.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFURLAccess.c; sourceTree = "<group>"; };
+		23FA74D720B6EE0F00875200 /* CFTimeZone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFTimeZone.c; sourceTree = "<group>"; };
+		23FA74D820B6EE0F00875200 /* CFLocaleInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLocaleInternal.h; sourceTree = "<group>"; };
+		23FA74D920B6EE0F00875200 /* CFUniCharPropertyDatabase.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = CFUniCharPropertyDatabase.data; sourceTree = "<group>"; };
+		23FA74DA20B6EE0F00875200 /* CFStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStream.c; sourceTree = "<group>"; };
+		23FA74DB20B6EE0F00875200 /* CFBundle_Grok.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle_Grok.c; sourceTree = "<group>"; };
+		23FA74DC20B6EE0F00875200 /* CFInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFInternal.h; sourceTree = "<group>"; };
+		23FA74DD20B6EE0F00875200 /* CFPlugIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPlugIn.c; sourceTree = "<group>"; };
+		23FA74DE20B6EE0F00875200 /* CFStringEncodingExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringEncodingExt.h; sourceTree = "<group>"; };
+		23FA74DF20B6EE0F00875200 /* SymbolAliases */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SymbolAliases; sourceTree = "<group>"; };
+		23FA74E020B6EE0F00875200 /* TargetConditionals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetConditionals.h; sourceTree = "<group>"; };
+		23FA74E120B6EE0F00875200 /* CFCalendar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFCalendar.c; sourceTree = "<group>"; };
+		23FA74E220B6EE0F00875200 /* CFICULogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFICULogging.h; sourceTree = "<group>"; };
+		23FA74E320B6EE0F00875200 /* CFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFString.h; sourceTree = "<group>"; };
+		23FA74E420B6EE0F00875200 /* plconvert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = plconvert.c; sourceTree = "<group>"; };
+		23FA74E520B6EE0F00875200 /* CFCharacterSet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFCharacterSet.c; sourceTree = "<group>"; };
+		23FA74E620B6EE0F00875200 /* CFPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPreferences.h; sourceTree = "<group>"; };
+		23FA74E720B6EE0F00875200 /* CFTimeZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTimeZone.h; sourceTree = "<group>"; };
+		23FA74E820B6EE0F00875200 /* CFPlugInCOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPlugInCOM.h; sourceTree = "<group>"; };
+		23FA74E920B6EE1000875200 /* CFBinaryHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBinaryHeap.h; sourceTree = "<group>"; };
+		23FA74EA20B6EE1000875200 /* CFApplicationPreferences.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFApplicationPreferences.c; sourceTree = "<group>"; };
+		23FA74EB20B6EE1000875200 /* CFICUConverters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFICUConverters.h; sourceTree = "<group>"; };
+		23FA74EC20B6EE1000875200 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../Documents/doucument/技术/CF-1151.16/Info.plist"; sourceTree = "<group>"; };
+		23FA74ED20B6EE1000875200 /* CFUniChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUniChar.h; sourceTree = "<group>"; };
+		23FA74EE20B6EE1000875200 /* CFLogUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLogUtilities.h; sourceTree = "<group>"; };
+		23FA74EF20B6EE1000875200 /* CFStringDefaultEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringDefaultEncoding.h; sourceTree = "<group>"; };
+		23FA74F020B6EE1000875200 /* CFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFError.h; sourceTree = "<group>"; };
+		23FA74F120B6EE1000875200 /* CFError_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFError_Private.h; sourceTree = "<group>"; };
+		23FA74F220B6EE1000875200 /* CFRunLoop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CFRunLoop.c; path = "../../../../Documents/doucument/技术/CF-1151.16/CFRunLoop.c"; sourceTree = "<group>"; };
+		23FA74F320B6EE1000875200 /* CFBasicHash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBasicHash.c; sourceTree = "<group>"; };
+		23FA74F420B6EE1000875200 /* CFUserNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUserNotification.h; sourceTree = "<group>"; };
+		23FA74F520B6EE1000875200 /* CFSet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFSet.c; sourceTree = "<group>"; };
+		23FA74F620B6EE1000875200 /* CFXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFXMLNode.h; sourceTree = "<group>"; };
+		23FA74F720B6EE1000875200 /* CFUnicodeData-B.mapping */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CFUnicodeData-B.mapping"; sourceTree = "<group>"; };
+		23FA74F820B6EE1000875200 /* CFBigNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBigNumber.h; sourceTree = "<group>"; };
+		23FA74F920B6EE1000875200 /* CFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDictionary.h; sourceTree = "<group>"; };
+		23FA74FA20B6EE1000875200 /* CFUnicodeDecomposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUnicodeDecomposition.h; sourceTree = "<group>"; };
+		23FA74FB20B6EE1000875200 /* CFXMLNode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFXMLNode.c; sourceTree = "<group>"; };
+		23FA74FC20B6EE1000875200 /* CFBundle_InfoPlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle_InfoPlist.c; sourceTree = "<group>"; };
+		23FA74FD20B6EE1100875200 /* CFPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPlugIn.h; sourceTree = "<group>"; };
+		23FA74FE20B6EE1100875200 /* CFCharacterSetBitmaps.bitmap */ = {isa = PBXFileReference; lastKnownFileType = file; path = CFCharacterSetBitmaps.bitmap; sourceTree = "<group>"; };
+		23FA74FF20B6EE1100875200 /* CFSortFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFSortFunctions.c; sourceTree = "<group>"; };
+		23FA750020B6EE1100875200 /* CFStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStorage.h; sourceTree = "<group>"; };
+		23FA750120B6EE1100875200 /* CFRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFRuntime.h; sourceTree = "<group>"; };
+		23FA750220B6EE1100875200 /* CFRuntime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFRuntime.c; sourceTree = "<group>"; };
+		23FA750320B6EE1100875200 /* CFUnicodeDecomposition.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFUnicodeDecomposition.c; sourceTree = "<group>"; };
+		23FA750420B6EE1100875200 /* CFXMLPreferencesDomain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFXMLPreferencesDomain.c; sourceTree = "<group>"; };
+		23FA750520B6EE1100875200 /* CFXMLInputStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFXMLInputStream.c; sourceTree = "<group>"; };
+		23FA750820B6EE1100875200 /* CFStringEncodings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStringEncodings.c; sourceTree = "<group>"; };
+		23FA750920B6EE1100875200 /* CFBuiltinConverters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBuiltinConverters.c; sourceTree = "<group>"; };
+		23FA750A20B6EE1100875200 /* CFSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSocket.h; sourceTree = "<group>"; };
+		23FA750B20B6EE1100875200 /* CFUnicodePrecomposition.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFUnicodePrecomposition.c; sourceTree = "<group>"; };
+		23FA750C20B6EE1100875200 /* CFByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFByteOrder.h; sourceTree = "<group>"; };
+		23FA750D20B6EE1100875200 /* CFXMLInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFXMLInputStream.h; sourceTree = "<group>"; };
+		23FA750E20B6EE1100875200 /* CFStringEncodingConverterExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringEncodingConverterExt.h; sourceTree = "<group>"; };
+		23FA750F20B6EE1100875200 /* CFUUID.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFUUID.c; sourceTree = "<group>"; };
+		23FA751020B6EE1100875200 /* CFDictionary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFDictionary.c; sourceTree = "<group>"; };
+		23FA751120B6EE1100875200 /* CFCharacterSetPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCharacterSetPriv.h; sourceTree = "<group>"; };
+		23FA751220B6EE1200875200 /* CFStringEncodingConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringEncodingConverter.h; sourceTree = "<group>"; };
+		23FA751320B6EE1200875200 /* CFPropertyList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPropertyList.c; sourceTree = "<group>"; };
+		23FA751420B6EE1200875200 /* CFBundle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle.c; sourceTree = "<group>"; };
+		23FA751520B6EE1200875200 /* CFBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBase.h; sourceTree = "<group>"; };
+		23FA751620B6EE1200875200 /* CFSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSet.h; sourceTree = "<group>"; };
+		23FA751720B6EE1200875200 /* CFNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFNumber.c; sourceTree = "<group>"; };
+		23FA751820B6EE1200875200 /* CFBundle_BinaryTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBundle_BinaryTypes.h; sourceTree = "<group>"; };
+		23FA751920B6EE1200875200 /* CFICUConverters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFICUConverters.c; sourceTree = "<group>"; };
+		23FA751A20B6EE1200875200 /* CFCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFCalendar.h; sourceTree = "<group>"; };
+		23FA751B20B6EE1200875200 /* CFStringEncodingConverter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStringEncodingConverter.c; sourceTree = "<group>"; };
+		23FA751C20B6EE1200875200 /* CFURL.inc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFURL.inc.h; sourceTree = "<group>"; };
+		23FA751D20B6EE1200875200 /* CFBasicHashFindBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFBasicHashFindBucket.m; sourceTree = "<group>"; };
+		23FA751E20B6EE1200875200 /* CFStorage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStorage.c; sourceTree = "<group>"; };
+		23FA751F20B6EE1200875200 /* CFPreferences.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPreferences.c; sourceTree = "<group>"; };
+		23FA752020B6EE1200875200 /* README_CFLITE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README_CFLITE; sourceTree = "<group>"; };
+		23FA752120B6EE1200875200 /* CFURL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFURL.c; sourceTree = "<group>"; };
+		23FA752220B6EE1200875200 /* CFPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFPriv.h; sourceTree = "<group>"; };
+		23FA752320B6EE1200875200 /* CFBundle_Locale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle_Locale.c; sourceTree = "<group>"; };
+		23FA752420B6EE1200875200 /* CFDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDate.h; sourceTree = "<group>"; };
+		23FA752520B6EE1200875200 /* CFXMLParser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFXMLParser.c; sourceTree = "<group>"; };
+		23FA752620B6EE1200875200 /* CFBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBag.h; sourceTree = "<group>"; };
+		23FA752720B6EE1200875200 /* CFMachPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMachPort.h; sourceTree = "<group>"; };
+		23FA752820B6EE1300875200 /* CFStringScanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStringScanner.c; sourceTree = "<group>"; };
+		23FA752920B6EE1300875200 /* ForFoundationOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForFoundationOnly.h; sourceTree = "<group>"; };
+		23FA752A20B6EE1300875200 /* CFBasicHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBasicHash.h; sourceTree = "<group>"; };
+		23FA752B20B6EE1300875200 /* CFBundle_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBundle_Internal.h; sourceTree = "<group>"; };
+		23FA752C20B6EE1300875200 /* CFBundlePriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBundlePriv.h; sourceTree = "<group>"; };
+		23FA752D20B6EE1300875200 /* CFMachPort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFMachPort.c; sourceTree = "<group>"; };
+		23FA752E20B6EE1300875200 /* CFTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFTree.c; sourceTree = "<group>"; };
+		23FA752F20B6EE1300875200 /* CFUniChar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFUniChar.c; sourceTree = "<group>"; };
+		23FA753020B6EE1300875200 /* CFStreamPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStreamPriv.h; sourceTree = "<group>"; };
+		23FA753120B6EE1300875200 /* CFRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFRunLoop.h; path = "../../../../Documents/doucument/技术/CF-1151.16/CFRunLoop.h"; sourceTree = "<group>"; };
+		23FA753220B6EE1300875200 /* CFPlugIn_PlugIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPlugIn_PlugIn.c; sourceTree = "<group>"; };
+		23FA753320B6EE1300875200 /* CFURLAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFURLAccess.h; sourceTree = "<group>"; };
+		23FA753420B6EE1300875200 /* CFLocaleIdentifier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFLocaleIdentifier.c; sourceTree = "<group>"; };
+		23FA753520B6EE1300875200 /* CFBag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBag.c; sourceTree = "<group>"; };
+		23FA753620B6EE1300875200 /* CFLocale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLocale.h; sourceTree = "<group>"; };
+		23FA753720B6EE1300875200 /* CFPlugIn_Factory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPlugIn_Factory.c; sourceTree = "<group>"; };
+		23FA753820B6EE1400875200 /* CFSocketStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFSocketStream.c; sourceTree = "<group>"; };
+		23FA753920B6EE1400875200 /* CFLocaleKeys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFLocaleKeys.c; sourceTree = "<group>"; };
+		23FA753A20B6EE1400875200 /* CFURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFURL.h; sourceTree = "<group>"; };
+		23FA753B20B6EE1400875200 /* MakefileLinux */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MakefileLinux; sourceTree = "<group>"; };
+		23FA753C20B6EE1400875200 /* CFBundle_Strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle_Strings.c; sourceTree = "<group>"; };
+		23FA753D20B6EE1400875200 /* CFArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFArray.h; sourceTree = "<group>"; };
+		23FA753E20B6EE1400875200 /* CFURLPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFURLPriv.h; sourceTree = "<group>"; };
+		23FA753F20B6EE1400875200 /* CFMessagePort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFMessagePort.c; sourceTree = "<group>"; };
+		23FA754020B6EE1400875200 /* CFBinaryPList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBinaryPList.c; sourceTree = "<group>"; };
+		23FA754120B6EE1400875200 /* CFBundle_Resources.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBundle_Resources.c; sourceTree = "<group>"; };
+		23FA754220B6EE1400875200 /* CFSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFSocket.c; sourceTree = "<group>"; };
+		23FA754320B6EE1400875200 /* CFWindowsUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFWindowsUtilities.c; sourceTree = "<group>"; };
+		23FA754420B6EE1400875200 /* CFBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBundle.h; sourceTree = "<group>"; };
+		23FA754520B6EE1400875200 /* CFNumberFormatter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFNumberFormatter.c; sourceTree = "<group>"; };
+		23FA754620B6EE1400875200 /* CFStringEncodingConverterPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringEncodingConverterPriv.h; sourceTree = "<group>"; };
+		23FA754720B6EE1400875200 /* CFBurstTrie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBurstTrie.c; sourceTree = "<group>"; };
+		23FA754820B6EE1500875200 /* CFBigNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBigNumber.c; sourceTree = "<group>"; };
+		23FA754920B6EE1500875200 /* CFOldStylePList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFOldStylePList.c; sourceTree = "<group>"; };
+		23FA754A20B6EE1500875200 /* CFUniCharPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUniCharPriv.h; sourceTree = "<group>"; };
+		23FA754B20B6EE1500875200 /* CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUtilities.h; sourceTree = "<group>"; };
+		23FA754C20B6EE1500875200 /* CFPlatform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPlatform.c; sourceTree = "<group>"; };
+		23FA754D20B6EE1500875200 /* CFBurstTrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBurstTrie.h; sourceTree = "<group>"; };
+		23FA754E20B6EE1500875200 /* CFSystemDirectories.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFSystemDirectories.c; sourceTree = "<group>"; };
+		23FA754F20B6EE1500875200 /* CFBase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBase.c; sourceTree = "<group>"; };
+		23FA755020B6EE1500875200 /* CFData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFData.c; sourceTree = "<group>"; };
+		23FA755120B6EE1500875200 /* CFError.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFError.c; sourceTree = "<group>"; };
+		23FA755220B6EE1500875200 /* CFPlatformConverters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPlatformConverters.c; sourceTree = "<group>"; };
+		23FA755320B6EE1500875200 /* CFDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDateFormatter.h; sourceTree = "<group>"; };
+		23FA755420B6EE1500875200 /* CFVersion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFVersion.c; sourceTree = "<group>"; };
+		23FA755520B6EE1500875200 /* CFArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFArray.c; sourceTree = "<group>"; };
+		23FA755620B6EE1500875200 /* CFBitVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFBitVector.h; sourceTree = "<group>"; };
+		23FA755720B6EE1500875200 /* CFMessagePort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMessagePort.h; sourceTree = "<group>"; };
+		23FA755820B6EE1500875200 /* CoreFoundation_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFoundation_Prefix.h; sourceTree = "<group>"; };
+		23FA755920B6EE1600875200 /* PropertyList.dtd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PropertyList.dtd; sourceTree = "<group>"; };
+		23FA755A20B6EE1600875200 /* CFUnicodeData-L.mapping */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CFUnicodeData-L.mapping"; sourceTree = "<group>"; };
+		23FA755B20B6EE1600875200 /* CFUnicodePrecomposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUnicodePrecomposition.h; sourceTree = "<group>"; };
+		23FA755C20B6EE1600875200 /* CFUserNotification.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFUserNotification.c; sourceTree = "<group>"; };
+		23FA755D20B6EE1600875200 /* CoreFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFoundation.h; sourceTree = "<group>"; };
+		23FA755E20B6EE1600875200 /* CFBinaryHeap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBinaryHeap.c; sourceTree = "<group>"; };
+		23FA755F20B6EE1600875200 /* CFStreamAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStreamAbstract.h; sourceTree = "<group>"; };
+		23FA756020B6EE1600875200 /* CFNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFNumber.h; sourceTree = "<group>"; };
+		23FA756120B6EE1600875200 /* CFStringEncodingDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringEncodingDatabase.h; sourceTree = "<group>"; };
+		23FA756220B6EE1600875200 /* CFString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFString.c; sourceTree = "<group>"; };
+		23FA756320B6EE1600875200 /* CFConcreteStreams.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFConcreteStreams.c; sourceTree = "<group>"; };
+		23FA756420B6EE1600875200 /* CFStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStream.h; sourceTree = "<group>"; };
+		23FA756520B6EE1600875200 /* CFUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUUID.h; sourceTree = "<group>"; };
+		23FA756620B6EE1600875200 /* CFTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFTree.h; sourceTree = "<group>"; };
+		23FA756720B6EE1600875200 /* CFStringUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStringUtilities.c; sourceTree = "<group>"; };
+		23FA756820B6EE1700875200 /* CFDateFormatter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFDateFormatter.c; sourceTree = "<group>"; };
+		23FA756920B6EE1700875200 /* CFLocale.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFLocale.c; sourceTree = "<group>"; };
+		23FA756A20B6EE1700875200 /* CFPlugIn_Instance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFPlugIn_Instance.c; sourceTree = "<group>"; };
+		23FA756B20B6EE1700875200 /* CFBitVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFBitVector.c; sourceTree = "<group>"; };
+		23FA756C20B6EE1700875200 /* CFStringEncodingDatabase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFStringEncodingDatabase.c; sourceTree = "<group>"; };
+		23FA756D20B6EE1700875200 /* CFDate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFDate.c; sourceTree = "<group>"; };
+		23FA756E20B6EE1700875200 /* CFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFData.h; sourceTree = "<group>"; };
+		23FA756F20B6EE1700875200 /* CFFileUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFFileUtilities.c; sourceTree = "<group>"; };
+		23FA757020B6EE1700875200 /* CFNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFNumberFormatter.h; sourceTree = "<group>"; };
+		23FA757120B6EE1700875200 /* CFXMLTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFXMLTree.c; sourceTree = "<group>"; };
+		23FA757220B6EE1800875200 /* CFStreamInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStreamInternal.h; sourceTree = "<group>"; };
+		23FA757320B6EE1800875200 /* CFUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CFUtilities.c; sourceTree = "<group>"; };
+		23FA757420B6EE1800875200 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		2A0D3930CFB8B8DDDD601235 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		2ED052AA6541FCE76E09D156 /* Pods-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testTests/Pods-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47C1CD78598023E22F522E70 /* Pods-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testUITests/Pods-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66B190CA9A2FAD4A64D723EE /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		7078BC48911F581CCE92047B /* libPods-testUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806DA0059F9EBBA96220ADC0 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC54A99818A7AE6A7D8273 /* Pods-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testTests/Pods-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF45DA7326A12A9C6A973EB3 /* libPods-testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23CDE6C51F7296B9008CF13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB93F8C9B38FEC4E5DAC14F /* libPods-test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CDE6DE1F7296BA008CF13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1892CBDB247FC9BFB3CEEB /* libPods-testTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CDE6E91F7296BA008CF13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66690BAF6581303EC15962F6 /* libPods-testUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233738B21FB9712C003B2D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				233738B41FB97147003B2D4C /* QuartzCore.framework */,
+				233738B31FB9712C003B2D4C /* OpenGLES.framework */,
+				806DA0059F9EBBA96220ADC0 /* libPods-test.a */,
+				DF45DA7326A12A9C6A973EB3 /* libPods-testTests.a */,
+				7078BC48911F581CCE92047B /* libPods-testUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		233738B51FB971F1003B2D4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				233738B61FB97216003B2D4C /* GLMyView.h */,
+				233738B71FB97216003B2D4C /* GLMyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23C76C6F1FB3069F00750CAB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				23C76C701FB306C200750CAB /* pic.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		23CDE6BF1F7296B9008CF13B = {
+			isa = PBXGroup;
+			children = (
+				23CDE6CA1F7296B9008CF13B /* test */,
+				23CDE6E41F7296BA008CF13B /* testTests */,
+				23CDE6EF1F7296BA008CF13B /* testUITests */,
+				23CDE6C91F7296B9008CF13B /* Products */,
+				233738B21FB9712C003B2D4C /* Frameworks */,
+				E30D684C0B13486B35A51250 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		23CDE6C91F7296B9008CF13B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23CDE6C81F7296B9008CF13B /* test.app */,
+				23CDE6E11F7296BA008CF13B /* testTests.xctest */,
+				23CDE6EC1F7296BA008CF13B /* testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23CDE6CA1F7296B9008CF13B /* test */ = {
+			isa = PBXGroup;
+			children = (
+				233738B51FB971F1003B2D4C /* View */,
+				23C76C6F1FB3069F00750CAB /* Resource */,
+				23CDE6CE1F7296B9008CF13B /* AppDelegate.h */,
+				23CDE6CF1F7296B9008CF13B /* AppDelegate.m */,
+				23CDE6D11F7296B9008CF13B /* ViewController.h */,
+				23CDE6D21F7296B9008CF13B /* ViewController.m */,
+				23CDE6D41F7296B9008CF13B /* Main.storyboard */,
+				23CDE6D71F7296B9008CF13B /* Assets.xcassets */,
+				23CDE6D91F7296B9008CF13B /* LaunchScreen.storyboard */,
+				23CDE6DC1F7296B9008CF13B /* Info.plist */,
+				23CDE6CB1F7296B9008CF13B /* Supporting Files */,
+				23FA74EA20B6EE1000875200 /* CFApplicationPreferences.c */,
+				23FA755520B6EE1500875200 /* CFArray.c */,
+				23FA753D20B6EE1400875200 /* CFArray.h */,
+				23FA74D320B6EE0F00875200 /* CFAvailability.h */,
+				23FA753520B6EE1300875200 /* CFBag.c */,
+				23FA752620B6EE1200875200 /* CFBag.h */,
+				23FA754F20B6EE1500875200 /* CFBase.c */,
+				23FA751520B6EE1200875200 /* CFBase.h */,
+				23FA74F320B6EE1000875200 /* CFBasicHash.c */,
+				23FA752A20B6EE1300875200 /* CFBasicHash.h */,
+				23FA751D20B6EE1200875200 /* CFBasicHashFindBucket.m */,
+				23FA754820B6EE1500875200 /* CFBigNumber.c */,
+				23FA74F820B6EE1000875200 /* CFBigNumber.h */,
+				23FA755E20B6EE1600875200 /* CFBinaryHeap.c */,
+				23FA74E920B6EE1000875200 /* CFBinaryHeap.h */,
+				23FA754020B6EE1400875200 /* CFBinaryPList.c */,
+				23FA756B20B6EE1700875200 /* CFBitVector.c */,
+				23FA755620B6EE1500875200 /* CFBitVector.h */,
+				23FA750920B6EE1100875200 /* CFBuiltinConverters.c */,
+				23FA74D420B6EE0F00875200 /* CFBundle_Binary.c */,
+				23FA751820B6EE1200875200 /* CFBundle_BinaryTypes.h */,
+				23FA74DB20B6EE0F00875200 /* CFBundle_Grok.c */,
+				23FA74FC20B6EE1000875200 /* CFBundle_InfoPlist.c */,
+				23FA752B20B6EE1300875200 /* CFBundle_Internal.h */,
+				23FA752320B6EE1200875200 /* CFBundle_Locale.c */,
+				23FA754120B6EE1400875200 /* CFBundle_Resources.c */,
+				23FA753C20B6EE1400875200 /* CFBundle_Strings.c */,
+				23FA751420B6EE1200875200 /* CFBundle.c */,
+				23FA754420B6EE1400875200 /* CFBundle.h */,
+				23FA752C20B6EE1300875200 /* CFBundlePriv.h */,
+				23FA754720B6EE1400875200 /* CFBurstTrie.c */,
+				23FA754D20B6EE1500875200 /* CFBurstTrie.h */,
+				23FA750C20B6EE1100875200 /* CFByteOrder.h */,
+				23FA74E120B6EE0F00875200 /* CFCalendar.c */,
+				23FA751A20B6EE1200875200 /* CFCalendar.h */,
+				23FA74E520B6EE0F00875200 /* CFCharacterSet.c */,
+				23FA74D520B6EE0F00875200 /* CFCharacterSet.h */,
+				23FA74FE20B6EE1100875200 /* CFCharacterSetBitmaps.bitmap */,
+				23FA751120B6EE1100875200 /* CFCharacterSetPriv.h */,
+				23FA756320B6EE1600875200 /* CFConcreteStreams.c */,
+				23FA755020B6EE1500875200 /* CFData.c */,
+				23FA756E20B6EE1700875200 /* CFData.h */,
+				23FA756D20B6EE1700875200 /* CFDate.c */,
+				23FA752420B6EE1200875200 /* CFDate.h */,
+				23FA756820B6EE1700875200 /* CFDateFormatter.c */,
+				23FA755320B6EE1500875200 /* CFDateFormatter.h */,
+				23FA751020B6EE1100875200 /* CFDictionary.c */,
+				23FA74F920B6EE1000875200 /* CFDictionary.h */,
+				23FA74F120B6EE1000875200 /* CFError_Private.h */,
+				23FA755120B6EE1500875200 /* CFError.c */,
+				23FA74F020B6EE1000875200 /* CFError.h */,
+				23FA756F20B6EE1700875200 /* CFFileUtilities.c */,
+				23FA751920B6EE1200875200 /* CFICUConverters.c */,
+				23FA74EB20B6EE1000875200 /* CFICUConverters.h */,
+				23FA74E220B6EE0F00875200 /* CFICULogging.h */,
+				23FA74DC20B6EE0F00875200 /* CFInternal.h */,
+				23FA756920B6EE1700875200 /* CFLocale.c */,
+				23FA753620B6EE1300875200 /* CFLocale.h */,
+				23FA753420B6EE1300875200 /* CFLocaleIdentifier.c */,
+				23FA74D820B6EE0F00875200 /* CFLocaleInternal.h */,
+				23FA753920B6EE1400875200 /* CFLocaleKeys.c */,
+				23FA74EE20B6EE1000875200 /* CFLogUtilities.h */,
+				23FA752D20B6EE1300875200 /* CFMachPort.c */,
+				23FA752720B6EE1200875200 /* CFMachPort.h */,
+				23FA753F20B6EE1400875200 /* CFMessagePort.c */,
+				23FA755720B6EE1500875200 /* CFMessagePort.h */,
+				23FA751720B6EE1200875200 /* CFNumber.c */,
+				23FA756020B6EE1600875200 /* CFNumber.h */,
+				23FA754520B6EE1400875200 /* CFNumberFormatter.c */,
+				23FA757020B6EE1700875200 /* CFNumberFormatter.h */,
+				23FA754920B6EE1500875200 /* CFOldStylePList.c */,
+				23FA754C20B6EE1500875200 /* CFPlatform.c */,
+				23FA755220B6EE1500875200 /* CFPlatformConverters.c */,
+				23FA753720B6EE1300875200 /* CFPlugIn_Factory.c */,
+				23FA74CF20B6EE0E00875200 /* CFPlugIn_Factory.h */,
+				23FA756A20B6EE1700875200 /* CFPlugIn_Instance.c */,
+				23FA753220B6EE1300875200 /* CFPlugIn_PlugIn.c */,
+				23FA74DD20B6EE0F00875200 /* CFPlugIn.c */,
+				23FA74FD20B6EE1100875200 /* CFPlugIn.h */,
+				23FA74E820B6EE0F00875200 /* CFPlugInCOM.h */,
+				23FA751F20B6EE1200875200 /* CFPreferences.c */,
+				23FA74E620B6EE0F00875200 /* CFPreferences.h */,
+				23FA752220B6EE1200875200 /* CFPriv.h */,
+				23FA751320B6EE1200875200 /* CFPropertyList.c */,
+				23FA74D020B6EE0E00875200 /* CFPropertyList.h */,
+				23FA74F220B6EE1000875200 /* CFRunLoop.c */,
+				23FA753120B6EE1300875200 /* CFRunLoop.h */,
+				23FA750220B6EE1100875200 /* CFRuntime.c */,
+				23FA750120B6EE1100875200 /* CFRuntime.h */,
+				23FA74F520B6EE1000875200 /* CFSet.c */,
+				23FA751620B6EE1200875200 /* CFSet.h */,
+				23FA754220B6EE1400875200 /* CFSocket.c */,
+				23FA750A20B6EE1100875200 /* CFSocket.h */,
+				23FA753820B6EE1400875200 /* CFSocketStream.c */,
+				23FA74FF20B6EE1100875200 /* CFSortFunctions.c */,
+				23FA751E20B6EE1200875200 /* CFStorage.c */,
+				23FA750020B6EE1100875200 /* CFStorage.h */,
+				23FA74DA20B6EE0F00875200 /* CFStream.c */,
+				23FA756420B6EE1600875200 /* CFStream.h */,
+				23FA755F20B6EE1600875200 /* CFStreamAbstract.h */,
+				23FA757220B6EE1800875200 /* CFStreamInternal.h */,
+				23FA753020B6EE1300875200 /* CFStreamPriv.h */,
+				23FA756220B6EE1600875200 /* CFString.c */,
+				23FA74E320B6EE0F00875200 /* CFString.h */,
+				23FA74EF20B6EE1000875200 /* CFStringDefaultEncoding.h */,
+				23FA751B20B6EE1200875200 /* CFStringEncodingConverter.c */,
+				23FA751220B6EE1200875200 /* CFStringEncodingConverter.h */,
+				23FA750E20B6EE1100875200 /* CFStringEncodingConverterExt.h */,
+				23FA754620B6EE1400875200 /* CFStringEncodingConverterPriv.h */,
+				23FA756C20B6EE1700875200 /* CFStringEncodingDatabase.c */,
+				23FA756120B6EE1600875200 /* CFStringEncodingDatabase.h */,
+				23FA74DE20B6EE0F00875200 /* CFStringEncodingExt.h */,
+				23FA750820B6EE1100875200 /* CFStringEncodings.c */,
+				23FA752820B6EE1300875200 /* CFStringScanner.c */,
+				23FA756720B6EE1600875200 /* CFStringUtilities.c */,
+				23FA754E20B6EE1500875200 /* CFSystemDirectories.c */,
+				23FA74D720B6EE0F00875200 /* CFTimeZone.c */,
+				23FA74E720B6EE0F00875200 /* CFTimeZone.h */,
+				23FA752E20B6EE1300875200 /* CFTree.c */,
+				23FA756620B6EE1600875200 /* CFTree.h */,
+				23FA752F20B6EE1300875200 /* CFUniChar.c */,
+				23FA74ED20B6EE1000875200 /* CFUniChar.h */,
+				23FA754A20B6EE1500875200 /* CFUniCharPriv.h */,
+				23FA74D920B6EE0F00875200 /* CFUniCharPropertyDatabase.data */,
+				23FA74F720B6EE1000875200 /* CFUnicodeData-B.mapping */,
+				23FA755A20B6EE1600875200 /* CFUnicodeData-L.mapping */,
+				23FA750320B6EE1100875200 /* CFUnicodeDecomposition.c */,
+				23FA74FA20B6EE1000875200 /* CFUnicodeDecomposition.h */,
+				23FA750B20B6EE1100875200 /* CFUnicodePrecomposition.c */,
+				23FA755B20B6EE1600875200 /* CFUnicodePrecomposition.h */,
+				23FA752120B6EE1200875200 /* CFURL.c */,
+				23FA753A20B6EE1400875200 /* CFURL.h */,
+				23FA751C20B6EE1200875200 /* CFURL.inc.h */,
+				23FA74D620B6EE0F00875200 /* CFURLAccess.c */,
+				23FA753320B6EE1300875200 /* CFURLAccess.h */,
+				23FA753E20B6EE1400875200 /* CFURLPriv.h */,
+				23FA755C20B6EE1600875200 /* CFUserNotification.c */,
+				23FA74F420B6EE1000875200 /* CFUserNotification.h */,
+				23FA757320B6EE1800875200 /* CFUtilities.c */,
+				23FA754B20B6EE1500875200 /* CFUtilities.h */,
+				23FA750F20B6EE1100875200 /* CFUUID.c */,
+				23FA756520B6EE1600875200 /* CFUUID.h */,
+				23FA755420B6EE1500875200 /* CFVersion.c */,
+				23FA754320B6EE1400875200 /* CFWindowsUtilities.c */,
+				23FA750520B6EE1100875200 /* CFXMLInputStream.c */,
+				23FA750D20B6EE1100875200 /* CFXMLInputStream.h */,
+				23FA74FB20B6EE1000875200 /* CFXMLNode.c */,
+				23FA74F620B6EE1000875200 /* CFXMLNode.h */,
+				23FA752520B6EE1200875200 /* CFXMLParser.c */,
+				23FA74D120B6EE0E00875200 /* CFXMLParser.h */,
+				23FA750420B6EE1100875200 /* CFXMLPreferencesDomain.c */,
+				23FA757120B6EE1700875200 /* CFXMLTree.c */,
+				23FA755820B6EE1500875200 /* CoreFoundation_Prefix.h */,
+				23FA755D20B6EE1600875200 /* CoreFoundation.h */,
+				23FA752920B6EE1300875200 /* ForFoundationOnly.h */,
+				23FA74EC20B6EE1000875200 /* Info.plist */,
+				23FA757420B6EE1800875200 /* Makefile */,
+				23FA753B20B6EE1400875200 /* MakefileLinux */,
+				23FA74D220B6EE0E00875200 /* MakefileVersion */,
+				23FA74E420B6EE0F00875200 /* plconvert.c */,
+				23FA755920B6EE1600875200 /* PropertyList.dtd */,
+				23FA752020B6EE1200875200 /* README_CFLITE */,
+				23FA74DF20B6EE0F00875200 /* SymbolAliases */,
+				23FA74E020B6EE0F00875200 /* TargetConditionals.h */,
+				23CDE6CC1F7296B9008CF13B /* main.m */,
+				230EA1BF20A998FA00E8EDFF /* CFRunLoop.h */,
+				230EA1C020A9992800E8EDFF /* CFRunLoop.c */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		23CDE6CB1F7296B9008CF13B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23CDE6E41F7296BA008CF13B /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				23CDE6E51F7296BA008CF13B /* testTests.m */,
+				23CDE6E71F7296BA008CF13B /* Info.plist */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		23CDE6EF1F7296BA008CF13B /* testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23CDE6F01F7296BA008CF13B /* testUITests.m */,
+				23CDE6F21F7296BA008CF13B /* Info.plist */,
+			);
+			path = testUITests;
+			sourceTree = "<group>";
+		};
+		E30D684C0B13486B35A51250 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A0D3930CFB8B8DDDD601235 /* Pods-test.debug.xcconfig */,
+				66B190CA9A2FAD4A64D723EE /* Pods-test.release.xcconfig */,
+				2ED052AA6541FCE76E09D156 /* Pods-testTests.debug.xcconfig */,
+				D5AC54A99818A7AE6A7D8273 /* Pods-testTests.release.xcconfig */,
+				47C1CD78598023E22F522E70 /* Pods-testUITests.debug.xcconfig */,
+				0389CAAFC010E9976514BFA8 /* Pods-testUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23CDE6C71F7296B9008CF13B /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CDE6F51F7296BA008CF13B /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				D94FC5F7897324143E8C4776 /* [CP] Check Pods Manifest.lock */,
+				23CDE6C41F7296B9008CF13B /* Sources */,
+				23CDE6C51F7296B9008CF13B /* Frameworks */,
+				23CDE6C61F7296B9008CF13B /* Resources */,
+				68445CAA273CBD485D16C2E5 /* [CP] Embed Pods Frameworks */,
+				4A5C4702CFAA57241A60F07E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 23CDE6C81F7296B9008CF13B /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23CDE6E01F7296BA008CF13B /* testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CDE6F81F7296BA008CF13B /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildPhases = (
+				6EB4A1D3E4357A4F3BB5E92C /* [CP] Check Pods Manifest.lock */,
+				23CDE6DD1F7296BA008CF13B /* Sources */,
+				23CDE6DE1F7296BA008CF13B /* Frameworks */,
+				23CDE6DF1F7296BA008CF13B /* Resources */,
+				52D3F27A248E31AC46A96563 /* [CP] Embed Pods Frameworks */,
+				F56603F1ED5EC058067777F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23CDE6E31F7296BA008CF13B /* PBXTargetDependency */,
+			);
+			name = testTests;
+			productName = testTests;
+			productReference = 23CDE6E11F7296BA008CF13B /* testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23CDE6EB1F7296BA008CF13B /* testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CDE6FB1F7296BA008CF13B /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildPhases = (
+				7AD8483B716FF449FFD66428 /* [CP] Check Pods Manifest.lock */,
+				23CDE6E81F7296BA008CF13B /* Sources */,
+				23CDE6E91F7296BA008CF13B /* Frameworks */,
+				23CDE6EA1F7296BA008CF13B /* Resources */,
+				D4C9A507ED4DA84E36314D5A /* [CP] Embed Pods Frameworks */,
+				B0CA5DDBFC00A4E3CBB42C04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23CDE6EE1F7296BA008CF13B /* PBXTargetDependency */,
+			);
+			name = testUITests;
+			productName = testUITests;
+			productReference = 23CDE6EC1F7296BA008CF13B /* testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23CDE6C01F7296B9008CF13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = shenchen;
+				TargetAttributes = {
+					23CDE6C71F7296B9008CF13B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3JF446YJ3Q;
+						ProvisioningStyle = Automatic;
+					};
+					23CDE6E01F7296BA008CF13B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23CDE6C71F7296B9008CF13B;
+					};
+					23CDE6EB1F7296BA008CF13B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23CDE6C71F7296B9008CF13B;
+					};
+				};
+			};
+			buildConfigurationList = 23CDE6C31F7296B9008CF13B /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23CDE6BF1F7296B9008CF13B;
+			productRefGroup = 23CDE6C91F7296B9008CF13B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23CDE6C71F7296B9008CF13B /* test */,
+				23CDE6E01F7296BA008CF13B /* testTests */,
+				23CDE6EB1F7296BA008CF13B /* testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23CDE6C61F7296B9008CF13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FA759D20B6EE1800875200 /* README_CFLITE in Resources */,
+				23FA758220B6EE1800875200 /* Info.plist in Resources */,
+				23FA758920B6EE1800875200 /* CFCharacterSetBitmaps.bitmap in Resources */,
+				23FA757D20B6EE1800875200 /* SymbolAliases in Resources */,
+				23CDE6DB1F7296B9008CF13B /* LaunchScreen.storyboard in Resources */,
+				23FA757920B6EE1800875200 /* CFUniCharPropertyDatabase.data in Resources */,
+				23CDE6D81F7296B9008CF13B /* Assets.xcassets in Resources */,
+				23FA758620B6EE1800875200 /* CFUnicodeData-B.mapping in Resources */,
+				23FA75BE20B6EE1800875200 /* PropertyList.dtd in Resources */,
+				23C76C711FB306C200750CAB /* pic.jpg in Resources */,
+				23FA757520B6EE1800875200 /* MakefileVersion in Resources */,
+				23CDE6D61F7296B9008CF13B /* Main.storyboard in Resources */,
+				23FA75BF20B6EE1800875200 /* CFUnicodeData-L.mapping in Resources */,
+				23FA75AB20B6EE1800875200 /* MakefileLinux in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CDE6DF1F7296BA008CF13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CDE6EA1F7296BA008CF13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A5C4702CFAA57241A60F07E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh",
+				"${PODS_ROOT}/KMCGeigerCounter/KMCGeigerCounter/KMCGeigerCounterTick.aiff",
+				"${PODS_ROOT}/LDKWWebViewController/LDKWWebViewController/Rescources/LDKWWebViewController.bundle",
+				"${PODS_ROOT}/LDKit/LDKit/UIKit/LDLightAlert/LDLightAlert.xcassets",
+				"${PODS_ROOT}/LDKit/LDKit/UIKit/MessageBoxView/LDMBAssets.xcassets",
+				"${PODS_ROOT}/LDKit/LDKit/Category/UIKit/UIScrollView/LDScrollViewRes.xcassets",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KMCGeigerCounterTick.aiff",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LDKWWebViewController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LDLightAlert.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LDMBAssets.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LDScrollViewRes.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52D3F27A248E31AC46A96563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testTests/Pods-testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68445CAA273CBD485D16C2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB4A1D3E4357A4F3BB5E92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD8483B716FF449FFD66428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CA5DDBFC00A4E3CBB42C04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testUITests/Pods-testUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C9A507ED4DA84E36314D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testUITests/Pods-testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94FC5F7897324143E8C4776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56603F1ED5EC058067777F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testTests/Pods-testTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23CDE6C41F7296B9008CF13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FA758E20B6EE1800875200 /* CFXMLInputStream.c in Sources */,
+				23FA757A20B6EE1800875200 /* CFStream.c in Sources */,
+				23FA759420B6EE1800875200 /* CFDictionary.c in Sources */,
+				23FA758120B6EE1800875200 /* CFApplicationPreferences.c in Sources */,
+				23CDE6D31F7296B9008CF13B /* ViewController.m in Sources */,
+				23FA75AE20B6EE1800875200 /* CFBinaryPList.c in Sources */,
+				23FA758820B6EE1800875200 /* CFBundle_InfoPlist.c in Sources */,
+				23FA75C920B6EE1800875200 /* CFStringEncodingDatabase.c in Sources */,
+				23FA758520B6EE1800875200 /* CFSet.c in Sources */,
+				23FA758D20B6EE1800875200 /* CFXMLPreferencesDomain.c in Sources */,
+				23FA759220B6EE1800875200 /* CFUnicodePrecomposition.c in Sources */,
+				23FA75A720B6EE1800875200 /* CFBag.c in Sources */,
+				23FA75B420B6EE1800875200 /* CFBigNumber.c in Sources */,
+				23FA75B320B6EE1800875200 /* CFBurstTrie.c in Sources */,
+				23FA75C520B6EE1800875200 /* CFDateFormatter.c in Sources */,
+				23FA757820B6EE1800875200 /* CFTimeZone.c in Sources */,
+				23FA759C20B6EE1800875200 /* CFPreferences.c in Sources */,
+				23FA75A820B6EE1800875200 /* CFPlugIn_Factory.c in Sources */,
+				23FA75A920B6EE1800875200 /* CFSocketStream.c in Sources */,
+				23FA758320B6EE1800875200 /* CFRunLoop.c in Sources */,
+				23FA759620B6EE1800875200 /* CFBundle.c in Sources */,
+				23FA759520B6EE1800875200 /* CFPropertyList.c in Sources */,
+				23FA75AF20B6EE1800875200 /* CFBundle_Resources.c in Sources */,
+				23FA759120B6EE1800875200 /* CFBuiltinConverters.c in Sources */,
+				23FA75A320B6EE1800875200 /* CFTree.c in Sources */,
+				23FA75B220B6EE1800875200 /* CFNumberFormatter.c in Sources */,
+				23FA75AC20B6EE1800875200 /* CFBundle_Strings.c in Sources */,
+				23FA757B20B6EE1800875200 /* CFBundle_Grok.c in Sources */,
+				23FA75AA20B6EE1800875200 /* CFLocaleKeys.c in Sources */,
+				23FA75C120B6EE1800875200 /* CFBinaryHeap.c in Sources */,
+				23FA758C20B6EE1800875200 /* CFUnicodeDecomposition.c in Sources */,
+				23FA759820B6EE1800875200 /* CFICUConverters.c in Sources */,
+				23FA757E20B6EE1800875200 /* CFCalendar.c in Sources */,
+				23FA75C320B6EE1800875200 /* CFConcreteStreams.c in Sources */,
+				23FA758020B6EE1800875200 /* CFCharacterSet.c in Sources */,
+				23FA75CE20B6EE1800875200 /* Makefile in Sources */,
+				23FA757620B6EE1800875200 /* CFBundle_Binary.c in Sources */,
+				23FA75A020B6EE1800875200 /* CFXMLParser.c in Sources */,
+				23FA757F20B6EE1800875200 /* plconvert.c in Sources */,
+				23FA758720B6EE1800875200 /* CFXMLNode.c in Sources */,
+				23FA75CA20B6EE1800875200 /* CFDate.c in Sources */,
+				23FA75B620B6EE1800875200 /* CFPlatform.c in Sources */,
+				23FA75BD20B6EE1800875200 /* CFArray.c in Sources */,
+				23FA759720B6EE1800875200 /* CFNumber.c in Sources */,
+				23FA759F20B6EE1800875200 /* CFBundle_Locale.c in Sources */,
+				233738B81FB97216003B2D4C /* GLMyView.m in Sources */,
+				23FA75B120B6EE1800875200 /* CFWindowsUtilities.c in Sources */,
+				23FA75B920B6EE1800875200 /* CFData.c in Sources */,
+				23FA75A120B6EE1800875200 /* CFStringScanner.c in Sources */,
+				23FA75A220B6EE1800875200 /* CFMachPort.c in Sources */,
+				23FA75C220B6EE1800875200 /* CFString.c in Sources */,
+				23FA759A20B6EE1800875200 /* CFBasicHashFindBucket.m in Sources */,
+				230EA1C120A9992800E8EDFF /* CFRunLoop.c in Sources */,
+				23FA75BC20B6EE1800875200 /* CFVersion.c in Sources */,
+				23FA757C20B6EE1800875200 /* CFPlugIn.c in Sources */,
+				23FA75C420B6EE1800875200 /* CFStringUtilities.c in Sources */,
+				23FA75CD20B6EE1800875200 /* CFUtilities.c in Sources */,
+				23FA75A620B6EE1800875200 /* CFLocaleIdentifier.c in Sources */,
+				23FA75C720B6EE1800875200 /* CFPlugIn_Instance.c in Sources */,
+				23FA759020B6EE1800875200 /* CFStringEncodings.c in Sources */,
+				23FA75C820B6EE1800875200 /* CFBitVector.c in Sources */,
+				23FA759920B6EE1800875200 /* CFStringEncodingConverter.c in Sources */,
+				23FA75B820B6EE1800875200 /* CFBase.c in Sources */,
+				23FA75B720B6EE1800875200 /* CFSystemDirectories.c in Sources */,
+				23FA759320B6EE1800875200 /* CFUUID.c in Sources */,
+				23FA75B020B6EE1800875200 /* CFSocket.c in Sources */,
+				23FA75A420B6EE1800875200 /* CFUniChar.c in Sources */,
+				23FA75A520B6EE1800875200 /* CFPlugIn_PlugIn.c in Sources */,
+				23FA75CB20B6EE1800875200 /* CFFileUtilities.c in Sources */,
+				23FA75C020B6EE1800875200 /* CFUserNotification.c in Sources */,
+				23FA75BB20B6EE1800875200 /* CFPlatformConverters.c in Sources */,
+				23FA758420B6EE1800875200 /* CFBasicHash.c in Sources */,
+				23FA75CC20B6EE1800875200 /* CFXMLTree.c in Sources */,
+				23FA75C620B6EE1800875200 /* CFLocale.c in Sources */,
+				23FA75B520B6EE1800875200 /* CFOldStylePList.c in Sources */,
+				23FA758B20B6EE1800875200 /* CFRuntime.c in Sources */,
+				23FA75BA20B6EE1800875200 /* CFError.c in Sources */,
+				23FA75AD20B6EE1800875200 /* CFMessagePort.c in Sources */,
+				23FA758A20B6EE1800875200 /* CFSortFunctions.c in Sources */,
+				23FA759B20B6EE1800875200 /* CFStorage.c in Sources */,
+				23FA759E20B6EE1800875200 /* CFURL.c in Sources */,
+				23CDE6D01F7296B9008CF13B /* AppDelegate.m in Sources */,
+				23CDE6CD1F7296B9008CF13B /* main.m in Sources */,
+				23FA757720B6EE1800875200 /* CFURLAccess.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CDE6DD1F7296BA008CF13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CDE6E61F7296BA008CF13B /* testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CDE6E81F7296BA008CF13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CDE6F11F7296BA008CF13B /* testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23CDE6E31F7296BA008CF13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23CDE6C71F7296B9008CF13B /* test */;
+			targetProxy = 23CDE6E21F7296BA008CF13B /* PBXContainerItemProxy */;
+		};
+		23CDE6EE1F7296BA008CF13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23CDE6C71F7296B9008CF13B /* test */;
+			targetProxy = 23CDE6ED1F7296BA008CF13B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23CDE6D41F7296B9008CF13B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CDE6D51F7296B9008CF13B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23CDE6D91F7296B9008CF13B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CDE6DA1F7296B9008CF13B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23CDE6F31F7296BA008CF13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23CDE6F41F7296BA008CF13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23CDE6F61F7296BA008CF13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0D3930CFB8B8DDDD601235 /* Pods-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JF446YJ3Q;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23CDE6F71F7296BA008CF13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B190CA9A2FAD4A64D723EE /* Pods-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3JF446YJ3Q;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23CDE6F91F7296BA008CF13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED052AA6541FCE76E09D156 /* Pods-testTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+			};
+			name = Debug;
+		};
+		23CDE6FA1F7296BA008CF13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AC54A99818A7AE6A7D8273 /* Pods-testTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/test";
+			};
+			name = Release;
+		};
+		23CDE6FC1F7296BA008CF13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C1CD78598023E22F522E70 /* Pods-testUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test;
+			};
+			name = Debug;
+		};
+		23CDE6FD1F7296BA008CF13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0389CAAFC010E9976514BFA8 /* Pods-testUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sc.com.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23CDE6C31F7296B9008CF13B /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CDE6F31F7296BA008CF13B /* Debug */,
+				23CDE6F41F7296BA008CF13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CDE6F51F7296BA008CF13B /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CDE6F61F7296BA008CF13B /* Debug */,
+				23CDE6F71F7296BA008CF13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CDE6F81F7296BA008CF13B /* Build configuration list for PBXNativeTarget "testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CDE6F91F7296BA008CF13B /* Debug */,
+				23CDE6FA1F7296BA008CF13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CDE6FB1F7296BA008CF13B /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CDE6FC1F7296BA008CF13B /* Debug */,
+				23CDE6FD1F7296BA008CF13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23CDE6C01F7296B9008CF13B /* Project object */;
+}
